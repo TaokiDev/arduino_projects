@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
 
- humedad = dht.readHumidity();
+ humidity = dht.readHumidity();
  temp = dht.readTemperature();
  Serial.print("Temperature: ");
  Serial.print(temp);
